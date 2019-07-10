@@ -1,18 +1,16 @@
 import React from "react"
 import Header from "../components/header"
-import { Link } from "gatsby"
 
 
-const AboutPage = () => {
-    return(
+const MarketPage = () => {
+    return (
         <section className="hero is-medium is-primary is-bold">
         <div class="hero-body">
             <div class="container">
-                <Header headertext="About SkyGarden"/>
+                <Header headertext="Marketplace"/>
                 <h2 class="subtitle">
-                    We are an online farmers market. 
-                    Here you can search by location 
-                    to find a farm near you.
+                    Input your location here. See what local 
+                    venders you can order from or pickup your produce from.
                 </h2>
             </div>
         </div>
@@ -20,4 +18,4 @@ const AboutPage = () => {
     )
 }
 
-export default AboutPage
+export default MarketPage

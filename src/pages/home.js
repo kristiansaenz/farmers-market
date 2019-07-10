@@ -5,20 +5,20 @@ import "../mystyles.scss"
 import Navbar from "../components/navbar"
 
 
-const IndexPage = () => {
+const HomePage = () => {
     return(
-        <section className="hero is-medium is-dark is-bold">
-        <div clasNames="hero-body">
+        <section className="hero is-fullheight is-dark is-bold">
+        <div class="hero-body">
             <div class="container">
                 <Header headertext="Welcome to SkyGarden"/>
                 <h2 class="subtitle">
                     Online farmers market
                 </h2>
-                <Navbar />
             </div>
         </div>
+        <Navbar />
         </section>
     )
 }
 
-export default IndexPage
+export default HomePage
