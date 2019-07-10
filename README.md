@@ -7,12 +7,12 @@
 
 ## 🚀 Quick start
 
-**Start application.**
+**To start application.**
 
-    Navigate into your new site’s directory and start it up.
+    Navigate into site’s directory and start it up.
 
     ```sh
-    cd my-hello-world-starter/
+    cd famers-market/
     gatsby develop
     ```
 
